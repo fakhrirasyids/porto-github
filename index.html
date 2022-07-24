@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+      <h1 class="text-center mt-4"><b>Fakhri's Portofolio</b></h1>
+      
+      <div class="container mt-3">
+        <div class="row">
+
+          <div class="col-sm-5 col-md-6">
+            <div class="card mt-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <div id="carouselChatApp" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/chat-app/1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/chat-app/2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/chat-app/3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item active">
+                            <img src="img/chat-app/4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/chat-app/5.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/chat-app/6.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselChatApp" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselChatApp" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <h3><b>Chat App - Android</b></h3><hr>
+                    <h4>Features :</h4>
+                    <ul>
+                      <li>Chat database with <a class="text-decoration-none" href="https://firebase.google.com/products/firestore" target="_blank">Firebase Firestore.</a></li>
+                      <li>Get latest login information with <a class="text-decoration-none" href="https://developer.android.com/topic/libraries/architecture/datastore?hl=id" target="_blank">Preferences Datastore.</a></li>
+                      <li>Implementing MVVM Architecture.</li>
+                      <li>Check the availability of the user (online or offline).</li>
+                    </ul>
+                    <br>
+                    <h4>Project Repository : </h4>
+                    <form action="https://github.com/fakhrirasyids/ChatApp-Kotlin" target="_blank">
+                      <button type="submit" class="btn btn-dark"><i class="fa fa-github"></i> ChatApp-Kotlin</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+            <div class="card mt-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <div id="carouselNotesApp" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/notes-app/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/notes-app/2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/notes-app/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item active">
+                          <img src="img/notes-app/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/notes-app/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/notes-app/6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNotesApp" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselNotesApp" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <h3><b>Simple Notes App - Android</b></h3><hr>
+                    <h4>Features :</h4>
+                    <ul>
+                      <li>Implementing CRUD with <a class="text-decoration-none" href="https://developer.android.com/jetpack/androidx/releases/room?hl=id" target="_blank">Room.</a></li>
+                      <li>Implementing MVVM Architecture.</li>
+                      <li>Setting to change theme to Dark Mode.</li>
+                      <li>Splash screen.</li>
+                    </ul>
+                    <br>
+                    <h4>Project Repository : </h4>
+                    <form action="https://github.com/fakhrirasyids/NotesApp-Kotlin" target="_blank">
+                      <button type="submit" class="btn btn-dark"><i class="fa fa-github"></i> NotesApp-Kotlin</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-5 col-md-6">
+            <div class="card mt-2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4">
+                    <div id="carouselWeatherApp" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/weather-app/1.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/weather-app/2.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/weather-app/3.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselWeatherApp" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselWeatherApp" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <h3><b>Simple Weather App - Android</b></h3><hr>
+                    <h4>Features :</h4>
+                    <ul>
+                      <li>Networking with <a class="text-decoration-none" href="https://square.github.io/retrofit/" target="_blank">Retrofit.</a></li>
+                      <li>Implementing MVVM Architecture.</li>
+                    </ul>
+                    <br>
+                    <h4>Project Repository : </h4>
+                    <form action="https://github.com/fakhrirasyids/WeatherApp-Kotlin" target="_blank">
+                      <button type="submit" class="btn btn-dark"><i class="fa fa-github"></i> WeatherApp-Kotlin</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
